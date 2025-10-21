@@ -8,7 +8,7 @@ public class Crocodile : Enemy
         base.Initialized(50);
     }
 
-    public override void Behavoir()
+    public override void Behavior()
     {
         throw new System.NotImplementedException();
     }
