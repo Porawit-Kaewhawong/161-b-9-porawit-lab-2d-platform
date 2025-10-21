@@ -18,7 +18,7 @@ public class Player : Character
         Enemy enemy = other.gameObject.GetComponent<Enemy>();
         if (enemy != null)
         {
-            // Take Damage
+            // Take damage
             OnHitWith(enemy);
         }
     }
