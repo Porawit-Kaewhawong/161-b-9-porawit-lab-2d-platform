@@ -8,7 +8,7 @@ public class Ant : Enemy
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        base.Initialized(20);
+        base.Initialized(100);
         DamageHit = 20;
 
         // Set speed and direction of movement
